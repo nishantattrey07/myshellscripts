@@ -1,5 +1,0 @@
-#!/usr/bin/expect -f
-spawn su
-expect "Password:"
-send "<here type your password and remove these "<>">\r"
-interact
